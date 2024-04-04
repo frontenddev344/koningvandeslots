@@ -184,7 +184,7 @@ position: relative;
 }
 .activitie-img img {
     width: 100%;
-    max-height: 350px;
+height: 350px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     object-fit: cover;

@@ -127,6 +127,9 @@
     .privacy-policy h3 {
         font-size: 18px;
     }
+    .activitie-img img {
+        height: 250px;
+    }
 
 }
 @media(max-width:991px){
@@ -292,6 +295,9 @@
     }
 }
 @media(max-width:575px){
+    .activitie-img img {
+        height: 200px;
+    }
     .site-header .logo img {
         max-width: 200px;
     }
