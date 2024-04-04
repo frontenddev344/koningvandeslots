@@ -1,0 +1,336 @@
+@media(max-width:1400px){
+    .nav-links ul li a {
+        font-size: 16px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .book-now a {
+        font-size: 16px;
+    }
+    .footer-links h4 {
+        font-size: 18px;
+    }
+    .footer-links ul li a {
+        font-size: 16px;
+    }
+    .footer-links ul li {
+        margin-bottom: 5px;
+    }
+    .banner-txt h2 {
+        font-size: 50px;
+    }
+    .banner-txt p {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .activitie-txt a {
+        font-size: 18px;
+    }
+    .sub-bnr-txt span {
+        font-size: 18px;
+    }
+    .sub-bnr-txt  h2 {
+        font-size: 52px;
+    }
+    .aus-card-img {
+        height: 400px;
+    }
+    .aus-txt-wrap h4 {
+        font-size: 22px;
+    }
+    .aus-sub-img {
+        height: 200px;
+    }
+    .aus-sub-txt h4 {
+        font-size: 18px;
+    }
+    .aus-sub-txt p {
+        font-size: 14px;
+        min-height: 340px;
+    }
+    .aus-sub-txt a {
+        font-size: 14px;
+    }
+    .site-heading h3 {
+        font-size: 35px;
+    }
+    .faq .accordion-button {
+        font-size: 18px;
+    }
+    .faq .accordion-body {
+        font-size: 16px;
+    }
+}
+@media(max-width:1200px){
+    .banner {
+        height: 70vh;
+    }
+    .banner-txt h2 {
+        font-size: 45px;
+    }
+    .banner-txt p, p {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    .book-now a {
+        font-size: 14px;
+        padding: 7px 15px;
+    }
+    .activitie-txt a {
+        font-size: 16px;
+    }
+    .activitie-txt p {
+        min-height: 270px;
+    }
+    .activitie {
+        padding: 0 70px;
+    }
+    .sub-bnr-txt span {
+        font-size: 16px;
+    }
+    .sub-bnr-txt  h2 {
+        font-size: 45px;
+    }
+    .aus-card-img {
+        height: 350px;
+    }
+    .aus-sub-img {
+        height: 170px;
+    }
+    .aus-sub-txt h4 {
+        font-size: 16px;
+    }
+    .aus-sub-txt p {
+        font-size: 13px;
+        min-height: 330px;
+    }
+    .aus-sub-txt a {
+        font-size: 12px;
+    }
+    .site-heading h3 {
+        font-size: 30px;
+    }
+    .faq .accordion-button {
+        font-size: 16px;
+    }
+    .faq .accordion-body {
+        font-size: 14px;
+    }
+    .privacy-policy p {
+        font-size: 14px;
+    }
+    .privacy-policy h3 {
+        font-size: 18px;
+    }
+
+}
+@media(max-width:991px){
+  
+    .togle-icon{
+        display: block;
+    }
+    .nav-links ul {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        flex-direction: column;
+        align-items: self-start;
+        padding: 50px 30px;
+    }
+    .nav-links {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 300px;
+        background-color: #ffffff;
+        transform: translateX(-100%);
+        transition: all 0.2s linear;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        z-index: 9;
+    }
+    .menu-toogle  .nav-links{
+        transform: translateX(0%);
+    }
+    span.toggle {
+        font-size: 25px;
+        border: 1px solid #000;
+        padding: 1px 10px;
+    }
+    .close-icn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #000000;
+        font-size: 20px;
+        display: block;
+    }
+    .footer-abt img {
+        max-width: 250px;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .book-now a {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    .footer-links h4 {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .footer-links ul li a {
+        font-size: 14px;
+    }
+    .banner-txt h2 {
+        font-size: 40px;
+    }
+    .banner-txt p, p {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .book-now a {
+        font-size: 12px;
+        padding: 7px 14px;
+    }
+    .activitie {
+        padding: 0 50px;
+    }
+    .activitie-txt a {
+        font-size: 14px;
+    }
+    .sub-bnr-txt span {
+        font-size: 14px;
+    }
+    .sub-bnr-txt  h2 {
+        font-size: 40px;
+    }
+    .aus-card-img {
+        height: 300px;
+    }
+    .aus-sub-img {
+        height: 140px;
+    }
+    .aus-sub-txt h4 {
+        font-size: 14px;
+    }
+    .aus-sub-txt p {
+        font-size: 12px;
+        min-height: 420px;
+    }
+}
+@media(max-width:767px){
+    .activitie {
+        padding: 0 20px;
+    }
+    .activitie-card {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    .footer-links h4 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .banner-txt h2 {
+        font-size: 35px;
+    }
+    .ptb-70 {
+        padding: 50px 0;
+    }
+    .aus-left {
+        width: 100%;
+        position: static;
+        top: 0;
+        margin-bottom: 50px;
+    }
+    .aus-right {
+        width: 100%;
+    }
+    .aus-sub-car {
+        width: 100%;
+    }
+    .aus-sub-txt p {
+        font-size: 12px;
+        min-height: auto;
+    }
+    .aus-sub-img {
+        height: 200px;
+    }
+    .aus-sub-txt h4 {
+        min-height: 0px;
+    }
+    .ptb-70 {
+        padding: 30px 0;
+    }
+    .site-heading h3 {
+        font-size: 25px;
+    }
+    .faq .accordion-button {
+        font-size: 14px;
+    }
+    .faq .accordion-body {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .sub-bnr-txt  h2 {
+        font-size: 28px;
+    }
+    .privacy-policy h3 {
+        font-size: 16px;
+    }
+    .privacy-policy p {
+        font-size: 12px;
+    }
+}
+@media(max-width:575px){
+    .site-header .logo img {
+        max-width: 200px;
+    }
+    span.toggle {
+        font-size: 20px;
+        padding: 1px 7px;
+    }
+    header.site-header {
+        padding: 15px 0;
+    }
+    .nav-links ul li a {
+        font-size: 14px;
+    }
+    p {
+        font-size: 14px;
+    }
+    #accept-cookies {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    .hotel-txt {
+        margin-bottom: 30px;
+    }
+    .hotel-wrap {
+        margin-top: 15px;
+    }
+    .banner {
+        height: 50vh;
+    }
+    .banner-txt h2 {
+        font-size: 28px;
+    }
+    .hotel-cont {
+        margin-bottom: 40px;
+    }
+    .sub-bnr-txt  h2 {
+        font-size: 25px;
+    }
+    .sub-bnr-txt span {
+        font-size: 12px;
+    }
+}

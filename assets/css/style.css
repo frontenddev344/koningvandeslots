@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    ----primary-color:#333;
+    ----yellow:#d4af37;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1200px;
+}
+.ptb-70{
+    padding: 70px 0;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(----yellow);
+}
+p {
+    font-size: 20px;
+    color: #333;
+}
+/* header css start here */
+header.site-header {
+    background-color: #fff;
+    box-shadow: 0 2px 0.75rem rgba(12,14,28,.08);
+    padding: 20px 0;
+}
+.site-header .logo img {
+    max-width: 250px;
+}
+.togle-icon{
+    display: none;
+}
+.nav-links ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.nav-links ul li a{
+    font-size: 18px;
+    color: #333333;
+    position: relative;
+    transition: all 0.2s linear;
+}
+.nav-links ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    width:0;
+    background-color: #d4af37;
+
+}
+.nav-links ul li a:hover::before, .nav-links ul li a.active::before{
+    width: 100%;
+}
+.nav-links ul li a.active, .nav-links ul li a:hover{
+    font-weight: 500;
+    color: #d4af37;
+}
+.site-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* home page css */
+/* header css end here */
+
+/* banner css satrt here */
+.banner{
+background-image: url(../images/hero-banner.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 85vh;
+position: relative;
+
+}
+.banner-txt h2{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.banner-txt p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+
+}
+.banner-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+/* banner css end here */
+/* hotel ifo section css start here */
+.hotel-img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.hotel-img:hover img{
+    transform: scale(1.3);
+    transition: all 0.3s linear;
+
+}
+.hotel-img img{
+    object-fit: cover;
+    height: 100%;
+}
+.book-now a {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: #d4af37;
+    border-radius: 8px;
+    display: inline-block;
+    border: 2px solid #d4af37;
+    transition: all 0.2s linear;
+}
+.book-now a:hover{
+    background-color: transparent;
+    color: #333;
+}
+.hotel-cont{
+    margin-bottom: 70px;
+}
+.activitie-card {
+    width: 48%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.activitie-txt {
+    padding: 20px;
+}
+.activitie-img{
+    position: relative;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.activitie-img:hover img{
+    transform: scale(1.2);
+    transition: all 0.3s linear;
+}
+.activitie-img .overlay{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.activitie-img img {
+    width: 100%;
+    max-height: 350px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit: cover;
+}
+.activitie-txt a {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #d4af37;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+transition: all 0.2s linear;
+}
+.activitie-txt a:hover{
+    color: #333;
+}
+.activitie-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.activitie-txt p {
+    min-height: 350px;
+}
+.activitie {
+    padding: 0 100px;
+}
+/* hotel ifo section css end here */
+
+
+
+/* footer css start here */
+.site-footer {
+    background-color: #33333317;
+    padding: 50px 0;
+}
+.footer-abt img {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+.footer-links h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #d4af37;
+    margin-bottom: 40px;
+}
+.footer-links ul li a{
+    font-size: 18px;
+    color: #333333;
+    transition: all 0.2s linear;
+}
+.footer-links ul li a:hover{
+text-decoration: underline;
+}
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* footer css end here */
+
+/* cookies css star here */
+#cookies-popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    /* display: none; */
+}
+
+#cookies-popup p {
+    margin: 0;
+    color: #fff;
+}
+
+#accept-cookies {
+    background-color: #d4af37;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#accept-cookies:hover {
+    background-color: #7e6619;
+}
+
+/* cookies css end here */
+
+
+/* australia page css  */
+.sub-banner{
+    background-image: url(../images/aus-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+}
+.sub-banner-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-bnr-txt{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.sub-bnr-txt span {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sub-bnr-txt  h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.aus-left {
+    width: 35%;
+    position: sticky;
+    top: 60px;
+}
+.aus-right{
+    width: 60%;
+
+}
+.aus-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    position: relative;
+    flex-wrap: wrap;
+}
+.aus-card-img {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.aus-card-img img, .aus-sub-img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.aus-card-img:hover img,  .aus-sub-img:hover img{
+    transform: scale(1.3);
+    transition: all 0.3s linear
+}
+.aus-txt-wrap h4 {
+    font-size: 25px;
+    color: #d4af37;
+}
+.aus-sub-car {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    width: 48%;
+    margin-top: 30px;
+}
+.aus-sub-img {
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.aus-sub-txt h4 {
+    font-size: 20px;
+    min-height: 50px;
+}
+.aus-sub-txt p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.aus-sub-txt {
+    padding: 10px  12px;
+}
+.aus-sub-txt a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #d4af37;
+    text-decoration: underline;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.aus-sub-txt a:hover{
+    color: #333;
+}
+.aus-sub-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    flex-wrap: wrap;
+}
+
+.aus-cont {
+    padding: 0 20px 20px 20px ;
+}
+.aus-card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 50px;
+}
+
+
+/* hwdjfh */
+
+/* faq section css */
+
+.faq .accordion-item {
+    border: none;
+    border-bottom: 2px solid #d4af37;
+}
+.faq .accordion-button {
+    font-size: 20px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.faq .accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #d4af37;
+    box-shadow: none;
+}
+.faq .accordion-button:focus {
+    border-color: #d4af37;
+    box-shadow: none;
+}
+.faq .accordion-button:not(.collapsed)::after {
+    filter: brightness(0) invert(1);
+}
+.faq div#accordionExample {
+    border: 1px solid #d4af37;
+    margin: 30px 0;
+}
+.faq{
+    margin: 50px 0;
+}
+.faq .accordion-body {
+    font-size: 18px;
+}
+.site-heading {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.site-heading h3 {
+    font-size: 45px;
+}
+.close-icn{
+    display: none;
+}
+.aus-sub-img img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.privacy-policy h3 {
+    font-size: 20px;
+    font-weight: 500;
+} 
+.privacy-policy p {
+font-size: 16px;
+}
