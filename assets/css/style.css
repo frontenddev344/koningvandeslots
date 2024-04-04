@@ -43,6 +43,13 @@ header.site-header {
     box-shadow: 0 2px 0.75rem rgba(12,14,28,.08);
     padding: 20px 0;
 }
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
 .site-header .logo img {
     max-width: 250px;
 }
