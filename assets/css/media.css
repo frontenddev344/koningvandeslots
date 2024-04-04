@@ -295,6 +295,9 @@
     }
 }
 @media(max-width:575px){
+    .sub-banner {
+        padding: 50px 0;
+    }
     .activitie-img img {
         height: 200px;
     }
