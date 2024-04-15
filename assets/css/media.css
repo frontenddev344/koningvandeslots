@@ -65,6 +65,9 @@
     }
 }
 @media(max-width:1200px){
+    .copy-right p {
+        font-size: 12px;
+    }
     .banner {
         height: 70vh;
     }
@@ -104,6 +107,7 @@
     }
     .aus-sub-txt h4 {
         font-size: 16px;
+        min-height: 60px;
     }
     .aus-sub-txt p {
         font-size: 13px;
@@ -224,13 +228,22 @@
     }
     .aus-sub-txt h4 {
         font-size: 14px;
+        min-height: 55px;
+
     }
     .aus-sub-txt p {
         font-size: 12px;
-        min-height: 420px;
+        min-height: 400px;
     }
 }
 @media(max-width:767px){
+    .hotel-cont:nth-child(1) .row, .hotel-cont:nth-child(3) .row{
+        flex-direction: column-reverse;
+    }
+    .hotel-img {
+        border-radius: 15px;
+        
+}
     .activitie {
         padding: 0 20px;
     }
