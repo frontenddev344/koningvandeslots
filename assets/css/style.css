@@ -476,3 +476,9 @@ font-size: 16px;
     margin-top: 25px;
     border-top: 1px solid #c1c1c1;
 }
+.filippijnen-bnr{
+    background-image: url(../images/FILIPPIJNEN-bnr.jpg);
+}
+.new-zealand-bnr{
+    background-image: url(../images/new-zeland.jpg);
+}
