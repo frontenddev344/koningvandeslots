@@ -364,11 +364,12 @@ text-decoration: underline;
 }
 .aus-sub-txt h4 {
     font-size: 20px;
-    min-height: 50px;
+    min-height: 70px;
 }
 .aus-sub-txt p{
     font-size: 16px;
     margin-bottom: 10px;
+    min-height: 340px;
 }
 .aus-sub-txt {
     padding: 10px  12px;
