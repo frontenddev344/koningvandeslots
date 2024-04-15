@@ -308,6 +308,9 @@
     }
 }
 @media(max-width:575px){
+    .nav-links {
+        width: 100%;
+    }
     .sub-banner {
         padding: 70px 0;
     }
